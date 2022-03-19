@@ -1,10 +1,12 @@
 .i{
-    width: 25%;
-    margin: 30px 13px;
+    width: 15%;
+    margin: 30px 15px;
     overflow: hidden;
     padding: 10px;
-    box-shadow: 10px 10px 10px 2px lightgray;
+    box-shadow: 10px 10px 10px 2px #6c757d;
     transition: transform 1s;
+    background-color: #fff;
+    
     
 }
 
@@ -12,20 +14,22 @@
 .i-img{
     width: 100%;
     object-fit: contain;
+    z-index: 0;
     
 }
 
 .i:hover{
-    transform:translateY(10%);
-    background-color:crimson;
+    transform:scale(2);
+    background-color:#6c757d;
+    box-shadow: 0px 0px 0px 0px #fff;
+    cursor: pointer;
+    z-index: 1;
 }
-
-
 
 
 @media screen and (max-width: 480px) {
     .i{
-        width: 100%;
+        width: 70%;
     }
 
 
