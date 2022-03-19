@@ -1,0 +1,32 @@
+.i{
+    width: 25%;
+    margin: 30px 13px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 2px lightgray;
+    transition: transform 1s;
+    
+}
+
+
+.i-img{
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.i:hover{
+    transform:translateY(10%);
+    background-color:crimson;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .i{
+        width: 100%;
+    }
+
+
+}
